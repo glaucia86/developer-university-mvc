@@ -8,6 +8,7 @@ Estou procurando seguir os mesmos padrões do tutorial do site: Asp.NET - caso d
 - Visual Studio 2015
 - Asp.NET MVC 5;
 - Entity Framework 6;
+- Code First;
 - SQL Server Management 2014;
 - Single Reposity Pattern;
 - Bootstrap 3;
