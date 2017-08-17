@@ -34,5 +34,6 @@ namespace GL.DeveloperUniversityApp.Domain.Entities
         /// Relacionamento de Estudante -> Inscrição (Relacionamento de 1 para n)
         /// </summary>
         public virtual ICollection<Enrollment> Enrollments { get; set; }
+
     }
 }
