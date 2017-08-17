@@ -3,14 +3,6 @@
 namespace GL.DeveloperUniversityApp.Domain.Entities
 {
     /// <summary>
-    /// Nota tirada nos Cursos
-    /// </summary>
-    public enum Grade
-    {
-        A, B, C, D, E, F
-    }
-
-    /// <summary>
     /// Classe: Inscrição
     /// </summary>
     public class Enrollment
@@ -47,5 +39,13 @@ namespace GL.DeveloperUniversityApp.Domain.Entities
         /// </summary>
         public virtual Student Student { get; set; }
                
+    }
+
+    /// <summary>
+    /// Nota tirada nos Cursos
+    /// </summary>
+    public enum Grade
+    {
+        A, B, C, D, E, F
     }
 }
