@@ -19,6 +19,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 -
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GL.DeveloperUniversityApp.MVC", "src\GL.DeveloperUniversityApp.MVC\GL.DeveloperUniversityApp.MVC.csproj", "{009B4206-A05E-42A3-BA30-326D4A2C5038}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GL.DeveloperUniversityApp.Domain", "src\GL.DeveloperUniversityApp.Domain\GL.DeveloperUniversityApp.Domain.csproj", "{3A58FBB3-EAE6-41DF-9A07-8B3921E60AB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GL.DeveloperUniversityApp.Infra.Data", "src\GL.DeveloperUniversityApp.Infra.Data\GL.DeveloperUniversityApp.Infra.Data.csproj", "{72E63439-26E5-4310-A8F4-F160B12A2535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GL.DeveloperUniversityApp.Application", "src\GL.DeveloperUniversityApp.Application\GL.DeveloperUniversityApp.Application.csproj", "{E2EE753D-8831-447B-B6DD-F6C6ABC24BDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +35,18 @@ Global
 		{009B4206-A05E-42A3-BA30-326D4A2C5038}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{009B4206-A05E-42A3-BA30-326D4A2C5038}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{009B4206-A05E-42A3-BA30-326D4A2C5038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A58FBB3-EAE6-41DF-9A07-8B3921E60AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A58FBB3-EAE6-41DF-9A07-8B3921E60AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A58FBB3-EAE6-41DF-9A07-8B3921E60AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A58FBB3-EAE6-41DF-9A07-8B3921E60AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72E63439-26E5-4310-A8F4-F160B12A2535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E63439-26E5-4310-A8F4-F160B12A2535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E63439-26E5-4310-A8F4-F160B12A2535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E63439-26E5-4310-A8F4-F160B12A2535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2EE753D-8831-447B-B6DD-F6C6ABC24BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2EE753D-8831-447B-B6DD-F6C6ABC24BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2EE753D-8831-447B-B6DD-F6C6ABC24BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2EE753D-8831-447B-B6DD-F6C6ABC24BDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,5 +55,8 @@ Global
 		{09BB64D8-6FCB-435F-A6D1-5261FAFB844C} = {974E1255-93BC-48B2-97F5-3F7776AD145F}
 		{6D173194-C7AE-489B-8044-A0A568ACFFA7} = {974E1255-93BC-48B2-97F5-3F7776AD145F}
 		{009B4206-A05E-42A3-BA30-326D4A2C5038} = {7CA14818-3F75-42EB-AD6E-FD9E445BE8C9}
+		{3A58FBB3-EAE6-41DF-9A07-8B3921E60AB6} = {64FC1BA5-5D9F-4590-AE6C-59E377F7B903}
+		{72E63439-26E5-4310-A8F4-F160B12A2535} = {09BB64D8-6FCB-435F-A6D1-5261FAFB844C}
+		{E2EE753D-8831-447B-B6DD-F6C6ABC24BDD} = {8887786E-2268-4132-B26F-2E1095465A1C}
 	EndGlobalSection
 EndGlobal
