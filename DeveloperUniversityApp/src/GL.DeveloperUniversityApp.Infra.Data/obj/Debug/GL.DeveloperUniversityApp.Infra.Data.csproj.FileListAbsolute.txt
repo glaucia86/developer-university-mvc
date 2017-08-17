@@ -1,0 +1,12 @@
+C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\src\GL.DeveloperUniversityApp.Infra.Data\bin\Debug\GL.DeveloperUniversityApp.Infra.Data.dll.config
+C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\src\GL.DeveloperUniversityApp.Infra.Data\bin\Debug\GL.DeveloperUniversityApp.Infra.Data.dll
+C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\src\GL.DeveloperUniversityApp.Infra.Data\bin\Debug\GL.DeveloperUniversityApp.Infra.Data.pdb
+C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\src\GL.DeveloperUniversityApp.Infra.Data\bin\Debug\EntityFramework.dll
+C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\src\GL.DeveloperUniversityApp.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\src\GL.DeveloperUniversityApp.Infra.Data\bin\Debug\GL.DeveloperUniversityApp.Domain.dll
+C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\src\GL.DeveloperUniversityApp.Infra.Data\bin\Debug\GL.DeveloperUniversityApp.Domain.pdb
+C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\src\GL.DeveloperUniversityApp.Infra.Data\bin\Debug\EntityFramework.xml
+C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\src\GL.DeveloperUniversityApp.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\src\GL.DeveloperUniversityApp.Infra.Data\obj\Debug\GL.DeveloperUniversityApp.Infra.Data.csprojResolveAssemblyReference.cache
+C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\src\GL.DeveloperUniversityApp.Infra.Data\obj\Debug\GL.DeveloperUniversityApp.Infra.Data.dll
+C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\src\GL.DeveloperUniversityApp.Infra.Data\obj\Debug\GL.DeveloperUniversityApp.Infra.Data.pdb

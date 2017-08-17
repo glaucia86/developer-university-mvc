@@ -50,3 +50,5 @@ C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\
 C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\src\GL.DeveloperUniversityApp.MVC\obj\Debug\GL.DeveloperUniversityApp.MVC.csprojResolveAssemblyReference.cache
 C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\src\GL.DeveloperUniversityApp.MVC\obj\Debug\GL.DeveloperUniversityApp.MVC.dll
 C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\src\GL.DeveloperUniversityApp.MVC\obj\Debug\GL.DeveloperUniversityApp.MVC.pdb
+C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\src\GL.DeveloperUniversityApp.MVC\obj\Debug\GL.DeveloperUniversityApp.MVC.Properties.Resources.resources
+C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\src\GL.DeveloperUniversityApp.MVC\obj\Debug\GL.DeveloperUniversityApp.MVC.csproj.GenerateResource.Cache

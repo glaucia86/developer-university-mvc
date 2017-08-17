@@ -1,0 +1,4 @@
+C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\src\GL.DeveloperUniversityApp.Domain\bin\Debug\GL.DeveloperUniversityApp.Domain.dll
+C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\src\GL.DeveloperUniversityApp.Domain\bin\Debug\GL.DeveloperUniversityApp.Domain.pdb
+C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\src\GL.DeveloperUniversityApp.Domain\obj\Debug\GL.DeveloperUniversityApp.Domain.dll
+C:\Users\Glaucia\Downloads\Labs\developer-university-mvc\DeveloperUniversityApp\src\GL.DeveloperUniversityApp.Domain\obj\Debug\GL.DeveloperUniversityApp.Domain.pdb
