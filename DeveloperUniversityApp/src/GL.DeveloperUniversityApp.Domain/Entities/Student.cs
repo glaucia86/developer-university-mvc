@@ -23,7 +23,12 @@ namespace GL.DeveloperUniversityApp.Domain.Entities
         /// <summary>
         /// Sobrenome do Estudante
         /// </summary>
-        public string LastName { get; set; }        
+        public string LastName { get; set; }
+
+        /// <summary>
+        /// Estudante Ativo
+        /// </summary>
+        public bool Active { get; set; }  
 
         /// <summary>
         /// Data de Inscrição
@@ -35,5 +40,15 @@ namespace GL.DeveloperUniversityApp.Domain.Entities
         /// </summary>
         public virtual ICollection<Enrollment> Enrollments { get; set; }
 
+        /// <summary>
+        /// Método responsável por identificar Estudantes Especiais com tempo maior 
+        /// do que 5 anos na plataforma
+        /// </summary>
+        /// <param name="student"></param>
+        /// <returns></returns>
+        public bool SpecialStudent(Student student)
+        {
+            return student.Active && DateTime.Now.Year - student.EnrollmentDate.Year >= 5;
+        }
     }
 }
