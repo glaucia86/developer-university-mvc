@@ -1,9 +1,11 @@
+using System;
+using System.Data.Entity;
+using System.Data.Entity.Migrations;
+using System.Linq;
+
 namespace GL.DeveloperUniversityApp.Infra.Data.Migrations
 {
-    using System;
-    using System.Data.Entity;
-    using System.Data.Entity.Migrations;
-    using System.Linq;
+
 
     internal sealed class Configuration : DbMigrationsConfiguration<Context.SchoolContext>
     {
@@ -14,7 +16,7 @@ namespace GL.DeveloperUniversityApp.Infra.Data.Migrations
 
         protected override void Seed(Context.SchoolContext context)
         {
-            
+
         }
     }
 }
