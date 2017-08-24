@@ -1,6 +1,8 @@
 ﻿
+using System;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using System.Linq;
 using GL.DeveloperUniversityApp.Domain.Entities;
 
 namespace GL.DeveloperUniversityApp.Infra.Data.Context
@@ -38,6 +40,25 @@ namespace GL.DeveloperUniversityApp.Infra.Data.Context
             //Configuração dos tamanhos dos campos do tipo 'varchar' (padrão: 100)
             modelBuilder.Properties<string>()
                 .Configure(p => p.HasMaxLength(100));
+        }
+
+        //Método responsável por atualizar a data de cadastro atual automaticamente
+        public override int SaveChanges()
+        {
+            foreach (var entry in ChangeTracker.Entries().Where(entry => entry.Entity.GetType().GetProperty("EnrollmentDate") != null))
+            {
+                if (entry.State == EntityState.Added)
+                {
+                    entry.Property("EnrollmentDate").CurrentValue = DateTime.Now;
+                }
+
+                if (entry.State == EntityState.Modified)
+                {
+                    entry.Property("EnrollmentDate").IsModified = false;
+                }
+            }
+
+            return base.SaveChanges();
         }
     }
 }
