@@ -1,4 +1,4 @@
-﻿
+﻿using System;
 using System;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
@@ -50,6 +50,8 @@ namespace GL.DeveloperUniversityApp.Infra.Data.Context
 
             //Adicionando as configurações dos dados da classe 'Enrollment' no arquivo 'EnrollmentConfiguration.cs'
             modelBuilder.Configurations.Add(new EnrollmentConfiguration());
+
+            base.OnModelCreating(modelBuilder);
         }
 
         //Método responsável por atualizar a data de cadastro atual automaticamente
