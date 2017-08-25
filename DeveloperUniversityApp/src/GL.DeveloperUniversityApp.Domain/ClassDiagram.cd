@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GL.DeveloperUniversityApp.Domain.Entities.Course">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAEAAAAAAAAAEAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Course.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Enrollments" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GL.DeveloperUniversityApp.Domain.Entities.Enrollment">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAQAAAAAAAAIAAAAAAAAAAAAgAAAAAAAECAAA=</HashCode>
+      <FileName>Entities\Enrollment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GL.DeveloperUniversityApp.Domain.Entities.Student">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAACAgAAAAAAgiAAg=</HashCode>
+      <FileName>Entities\Student.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Enrollments" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Enum Name="GL.DeveloperUniversityApp.Domain.Entities.Grade" Collapsed="true">
+    <Position X="8.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtgEAAAA=</HashCode>
+      <FileName>Entities\Enrollment.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

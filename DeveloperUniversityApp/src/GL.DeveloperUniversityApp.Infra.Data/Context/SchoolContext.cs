@@ -7,9 +7,9 @@ using GL.DeveloperUniversityApp.Domain.Entities;
 
 namespace GL.DeveloperUniversityApp.Infra.Data.Context
 {
-    public class SchoolContext : DbContext        
+    public class SchoolContext : DbContext
     {
-        public SchoolContext() 
+        public SchoolContext()
             : base("DeveloperUniversity")
         {
             //Default
@@ -40,6 +40,20 @@ namespace GL.DeveloperUniversityApp.Infra.Data.Context
             //Configuração dos tamanhos dos campos do tipo 'varchar' (padrão: 100)
             modelBuilder.Properties<string>()
                 .Configure(p => p.HasMaxLength(100));
+
+            //Configuração do relacionamento:  Course to Enrollment (1 -> n)
+            //Definição da FK: CourseId
+            modelBuilder.Entity<Enrollment>()
+                .HasRequired(e => e.Course)
+                .WithMany(c => c.Enrollments)
+                .HasForeignKey(e => e.CourseId);
+
+            //Configuração do relacionamento: Student to Enrollment (1 - n)
+            //Definição da FK: StudentId
+            modelBuilder.Entity<Enrollment>()
+                .HasRequired(e => e.Student)
+                .WithMany(s => s.Enrollments)
+                .HasForeignKey(e => e.StudentId);
         }
 
         //Método responsável por atualizar a data de cadastro atual automaticamente

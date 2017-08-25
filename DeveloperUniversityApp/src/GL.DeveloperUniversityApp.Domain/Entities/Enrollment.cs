@@ -35,7 +35,6 @@ namespace GL.DeveloperUniversityApp.Domain.Entities
 
         /// <summary>
         /// Relacionamento de Inscrição -> Estudante (relacionamento de n para 1)
-        /// Foreign Key (Chave Estrangeira)
         /// </summary>
         public virtual Student Student { get; set; }
                
