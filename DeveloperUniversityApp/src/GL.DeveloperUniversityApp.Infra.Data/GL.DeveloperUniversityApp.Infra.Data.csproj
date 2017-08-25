@@ -50,6 +50,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\SchoolContext.cs" />
+    <Compile Include="EntityConfig\CourseConfiguration.cs" />
+    <Compile Include="EntityConfig\EnrollmentConfiguration.cs" />
+    <Compile Include="EntityConfig\StudentConfiguration.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -60,7 +63,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="EntityConfig\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
   <ItemGroup>

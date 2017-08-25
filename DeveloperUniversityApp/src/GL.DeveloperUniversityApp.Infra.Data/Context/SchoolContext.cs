@@ -4,6 +4,7 @@ using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
 using GL.DeveloperUniversityApp.Domain.Entities;
+using GL.DeveloperUniversityApp.Infra.Data.EntityConfig;
 
 namespace GL.DeveloperUniversityApp.Infra.Data.Context
 {
@@ -41,19 +42,14 @@ namespace GL.DeveloperUniversityApp.Infra.Data.Context
             modelBuilder.Properties<string>()
                 .Configure(p => p.HasMaxLength(100));
 
-            //Configuração do relacionamento:  Course to Enrollment (1 -> n)
-            //Definição da FK: CourseId
-            modelBuilder.Entity<Enrollment>()
-                .HasRequired(e => e.Course)
-                .WithMany(c => c.Enrollments)
-                .HasForeignKey(e => e.CourseId);
+            //Adicionando as configurações dos dados da classe 'Course' no arquivo 'CourseConfiguration.cs'
+            modelBuilder.Configurations.Add(new CourseConfiguration());
 
-            //Configuração do relacionamento: Student to Enrollment (1 - n)
-            //Definição da FK: StudentId
-            modelBuilder.Entity<Enrollment>()
-                .HasRequired(e => e.Student)
-                .WithMany(s => s.Enrollments)
-                .HasForeignKey(e => e.StudentId);
+            //Adicionando as configurações dos dados da classe 'Student' no arquivo 'StudentConfiguration.cs'
+            modelBuilder.Configurations.Add(new StudentConfiguration());
+
+            //Adicionando as configurações dos dados da classe 'Enrollment' no arquivo 'EnrollmentConfiguration.cs'
+            modelBuilder.Configurations.Add(new EnrollmentConfiguration());
         }
 
         //Método responsável por atualizar a data de cadastro atual automaticamente
